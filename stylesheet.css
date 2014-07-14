@@ -1,4 +1,7 @@
-﻿*{
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+
+*{
 	padding:0px;
 	margin:0px;
 
@@ -8,6 +11,7 @@
 body{
 	width:100%;	
 	margin:0px;
+	height:auto;
 	
 }
 
@@ -98,21 +102,29 @@ li a{
 
 
 #slider{
-	width:100%;
-	height:900px;
+	width:auto;
+	height:500px;
+	margin-top:25px;
 }
+
+#slippry-demo{
+	margin-left:25%;
+}
+
 
 #slippry-demo img{
 	height:100%;
-	width:100%;
+	width:50%;
+
 }
 
 #slippry-demo .caption{
 	background:rgba(255,255,255,.5);
 	position: absolute;
 	margin-top:-50px;
-	width:100%;
+	width:auto;
 	text-align:center;
+	margin-left:10%;
 }
 
 #slippry-demo p{
@@ -125,45 +137,63 @@ li a{
 }
 
 
-#stage{
-	background-color:rgba(200,200,200,.7);
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;	
-	width:100%;	}
 	
 	
 #title{
-	color: rgba(98, 96, 165,25);
+	color: white;
 	
 }
 
 #caption{
-	color: rgba(58, 92, 142, 25);
+	color: white;
 }
 	
 /*about*/
 #page1{ 
-	height:750px;
-	background:url('Image/shiba%20inu.PNG');
+	height:500px;
+	background:rgb(43, 127, 196);
 	background-position:center;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
 	width:100%;
 	border-bottom:5px solid black;
 
 }
 
 
-#page1 h3{
+#page1 h3{ /*about title*/
 	font-size:50px;
+	color: white;
+	font-family:'Roboto';
+	padding-top:50px;
+	text-align:center;
+
 	
 }
 
-#page1 h4{
+#page1 h4{ /*caption*/
 	font-size:35px;
+	padding-top:75px;
+	text-align:center;
 }
 
+.button{
+	display:inline-block;
+	width:150px;
+	height:50px;
+	background:#FF9966;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	padding-top:25px;
+	font-size:25px;
+	font-weight:bold;
+	border-radius:15px;
+	
+}
+#resume-button{
+	margin-top:20px;
+	text-align:center;
+	width:100%;
+}
 
 /*art*/
 #page2{
