@@ -1,0 +1,171 @@
+﻿#content-wrapper{
+	background:black;
+	font-size:20px;
+}
+
+
+
+.li-bg{
+	background-color:white;
+}
+/*#about-background{
+	background-image:url('snowman.gif');
+	background-size:1600px 1000px; 
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+*/
+
+
+.separator{
+	text-align:center;
+	margin:10px 0px;
+}
+#banner{
+	height:150px;
+	background-image:url('../Image/rutgers-generic.jpg');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+#banner2{
+	height:150px;
+	background-image:url('../Image/rons.gif');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+#banner h2{
+	color:white;
+	text-align:center;
+	font-size:50px;
+	
+}
+
+#banner p{
+	height:300px;
+}
+
+#banner3{
+	height:150px;
+	background-image:url('../Image/eye-tracking.jpg');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+#space{
+	height:100px;
+	
+}
+
+#about-wrapper{
+	background:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	
+}
+
+#about-background{
+	background:rgba(204, 204, 204, 20);
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+
+img[src="Image/profilepic.gif"]{
+	border:5px solid white;
+	border-radius:100px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+#platform{
+	height:500px;
+	margin-top:90px;
+}
+
+#platform p{
+	word-spacing:10px;
+}
+
+
+#about-wrapper h3{
+	font-size:35px;
+}
+
+div h2{
+	text-align:center;
+	font-size:32px;
+	color:rgba(255,255,255,.7);
+}
+
+
+
+
+/*word-switch*/
+
+#word-switch{
+  margin:0px;
+   
+    
+}
+ 
+#word-switch li{
+  position:absolute;
+  list-style: none;
+  
+   
+}
+ 
+#word-switch li:nth-child(1){
+  -webkit-animation: 3s cycle infinite;
+}
+ 
+#word-switch li:nth-child(2){
+ -webkit-animation: 6s cycle infinite;
+}
+ 
+#word-switch li:nth-child(3){
+ -webkit-animation: 9s cycle infinite;
+}
+ 
+#word-switch p{
+  position: absolute;
+  top:300px;"
+   
+}
+ 
+#word-switch li p{
+  background-color:rgba(58,58,58,.85);
+  width: 500px;
+  padding:10px;
+  border-radius: 10%;
+  margin:10px;
+  color: white;
+ 
+}
+ 
+ 
+@-webkit-keyframes cycle{
+  000%{z-index:0;}
+  033%{z-index:0;}
+  034%{z-index:-1;}
+  100%{z-index:-1;}
+   
+  
+}
+
+
+
+
