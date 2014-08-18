@@ -8,13 +8,6 @@
 }
 
 
-#diamond{
-	text-align:center;
-	font-size:75px;
-	padding-top:30px;
-	
-}
-
 body{
 	width:100%;	
 	margin:0px;
@@ -28,10 +21,14 @@ body h3{
 }
 
 
+
 div p{
 	font-family:"Courier New", Courier, monospace;
 	font-size:20px;
+	
+	
 }
+
 
 #container{
 	
@@ -48,46 +45,6 @@ div p{
 
 
 
-#title{ 
-	font-size:50px;
-	color: black;
-	font-family:'Roboto';
-	padding-top:25px;
-	text-align:center;
-
-	
-}
-
-
-/*****HEADER*****/
-
-
-#header{
-	max-height:100%;
-	background-image:url('Image/city.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:1350px;
-	background-attachment:scroll;
-	width:100%;
-}
-
-
-
-#top-header{
-	padding-top:15px;
-	height:700px;
-	text-align:center;
-}
-
-#top-header img{
-	width:250px;
-	height:250px;
-	margin: 120px;
-}
-
-
-/*NAVIBAR*/
 
 li{
 	display:inline;
@@ -100,6 +57,11 @@ li a{
 	font:white;
 }
 
+#header{
+	max-height:100%;
+	background:#333333;
+	width:100%;
+}
 
 .navibar{
 	
@@ -107,14 +69,11 @@ li a{
 	float:right;
 	clear:both;
 	margin-top:-30px;
-	background:black;
-	width:100%;
 	
 }
 
 .navibar li{
 	padding: 35px;
-	padding-left:200px;
 
 }
 .navibar li a{
@@ -131,8 +90,11 @@ li a{
 
 }
 
+#logo{
+	max-width:100%;
 
 
+}
 
 /*
 	SLIDE
@@ -176,6 +138,11 @@ li a{
 
 
 	
+	
+#title{
+	color: white;
+	
+}
 
 #caption{
 	color: white;
@@ -183,31 +150,24 @@ li a{
 	
 /*about*/
 #page1{ 
-	max-height:1000px;
+	height:500px;
+	background:rgb(43, 127, 196);
+	background-position:center;
 	width:100%;
-	padding-top:150px;
-	padding-bottom:150px;
-	border-bottom:1px solid rgb(252, 204, 152)
-
-
-
+	border-bottom:5px solid black;
 
 }
 
-#profile-wrapper{
+
+#page1 h3{ /*about title*/
+	font-size:50px;
+	color: white;
+	font-family:'Roboto';
+	padding-top:50px;
 	text-align:center;
-	margin-bottom:20px;
-}
 
-
-
-#profile-pic{
-	width:275px;
-	height: 275px;
 	
 }
-
-
 
 #page1 h4{ /*caption*/
 	font-size:35px;
@@ -235,66 +195,36 @@ li a{
 	width:100%;
 }
 
-
-
-#billboard{
-	height:250px;
-	width:100%;
-	background-image:url('Image/masked-sheep.png');
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:1500px;
-	border-top: 10px black solid;
-	border-bottom:10px solid black;
-}
-
-#billboard h3{
-	color:#FF6600;
-	font-size:35px;
-}
-
 /*art*/
 #page2{
-	max-height:1000px;
+	height:750px;
+	background:rgba(216, 133, 83,.7);
 	width:100%;
-	border-bottom:1px solid rgb(252, 204, 152);
-	padding-top:150px;
-	padding-bottom:150px;
-	
 	
 }
 
-#page2 img{
-	height:50%;
-	width:50%;
+#page2 h3{
+	font-size:50px;
+	font: white;
 }
 
-
-#portfolio-panel1{
-	width:50%;
-	height:50%;
+#gallery{
+	background:white;
+    margin-left: auto;
+    margin-right: auto;
+	padding:25px 10px;
+	display:block;
+	width:75%
 }
 
-#portfolio-panel2{
-	width:50%;
-	height:50%;
-	margin-top:10px;
+#gallery a{
+	height:30%;
+	width:30%;
 }
 
-
-#page2 div div *{
+#gallery>*{
 	text-align:center;
 }
-
-
-/*page3*/
-#page3{
-	max-height:1000px;
-	width:100%;
-	padding-top:150px;
-	padding-bottom:150px;
-}
-
 
 /*contact*/
 

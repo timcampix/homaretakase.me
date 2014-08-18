@@ -1,12 +1,14 @@
 ﻿#content-wrapper{
-	background:black;
 	font-size:20px;
 }
 
 
 
+
 .li-bg{
 	background-color:white;
+	width:500px;
+	height:100%;
 }
 /*#about-background{
 	background-image:url('snowman.gif');
@@ -25,17 +27,17 @@
 }
 #banner{
 	height:150px;
-	background-image:url('../Image/rutgers-generic.jpg');
-	background-attachment:fixed;
+	background-image:url('Image/rutgers-generic.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 }
 
 
+
 #banner2{
 	height:150px;
-	background-image:url('../Image/rons.gif');
-	background-attachment:fixed;
+	background-image:url('Image/rons.gif');
+
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -55,8 +57,8 @@
 
 #banner3{
 	height:150px;
-	background-image:url('../Image/eye-tracking.jpg');
-	background-attachment:fixed;
+	width:100%;
+	background-image:url('Image/eye-tracking.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -117,6 +119,7 @@ div h2{
 
 #word-switch{
   margin:0px;
+  text-align:center;
    
     
 }

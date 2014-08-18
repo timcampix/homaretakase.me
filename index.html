@@ -8,8 +8,9 @@
 
 
 <link href="slippry.css" type="text/css" rel="stylesheet"/>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="slippry.min.js"></script>
+<link href="foundation.min.css" type="text/css" rel="stylesheet"/>
 
 
 
@@ -25,69 +26,95 @@
 
 
 <body>
-
 	<div id="header">
-		<img src="Image/htlogo.png" id="logo" alt="Homare Takase"/>
+		<div id="top-header" class="row">
+			<div class="large-12 column">
+				<img src="Image/HTopacity.png"/>
+			</div>
+		</div><!--top-header-->
+		</div><!--header-->
 
 		<div class="top-navibar">
 		<ul class="navibar">
 			<li ><a href="#home">Home</a></li>
-		    <li><a href="about.html">About</a></li>
-		    <li><a href="art.html">Art</a></li>
+		    <li><a href="#page1">About</a></li>
+		    <li><a href="#page2">Portfolio</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 		</div><!--top-navibar-->
 		
-		
-	</div><!--header-->
-
-			<div id="page1">
+		<div id="page1" class="row">
 			<a id="about"></a>
-				<div id="stage">
-				<h3 id="title">Homare Takase</h3>
-				
-				<h4 id="caption">Future User Experience Research</h4>		
+				<div id="stage" class="large-12 column medium-12 small-12">
+					<h3 id="title">Introduction</h3>
+					
+					<div id="profile-wrapper">
+						<img id="profile-pic" src="Image/HTface.png"/>
+					</div><!--profile-wrapper-->
+					<p> I am a student majoring in Information Technology and Informatics and minoring in Psychology.  I will graduate on May 2015. </p>
+					<p>I am interested in improve on the relationship between technology and people.  I want to become a user experience researcher</p>							
 				
 				<div id="resume-button" style="text-align:center">
-					<a href="HT resume - IT.pdf" title="Resume" class="button">Resume</a>
+						<a href="about.html" title="about" class="button">Learn More</a>
 				</div> <!--resume-button"-->
+
+				
+				
+				</div> <!--stage-->
+			
+		</div><!--page1-->	
+			
+			
+			
+		
+		
+		<div id="page2" class="row">
+			<a id="portfolio"></a>
+				<div id="stage" class="large-12 column medium-12 small-12">
+					<h3 id="title">Portfolio</h3>
+					<div class="row">
+						<p>Learn what I did for class</p>
+					</div>
+					<div class="large-12 columns">
+						<ul class="large-block-grid-2">
+							<li>
+								<a href="HomareTakase3.swf" title="Flash Portfolio">
+								<img src="Image/flashpic.PNG"/>
+								<p>Flash Portfolio</p>
+								</a>
+							</li>
+								
+							<li>
+								<a href="http://www.veoh.com/watch/v74908993b8WbaByQ" title="102 Movie">
+								<img src="Image/slide1.png"/>
+								<p>3D Movie</p>
+								</a>
+							</li>
+						</ul>				
+						</div>
+				</div> <!--stage-->
+		</div><!--page2-->	
+	
+			
+	
+			
+		<div id="page3">
+			<a id="resume"></a>
+				<div id="stage" class="row">
+					<h3 id="title">Resume</h3>
+					<div class="row">
+					<div id="resume-button" style="text-align:center">
+						<a href="HT resume - IT.pdf" title="Resume" class="button">Resume</a>
+					</div> <!--resume-button"-->
+
+					</div>
+				</div> <!--stage-->
+			
+		</div><!--page2-->	
+		
+		
 		
 
-				</div> <!--stage-->
-				
-			</div><!--about-->
-			
-			
-			
-	<div id="content-wrapper">
-		<div id="slider">
-			<ul id="slippry-demo">
-				<li>
-					<img src="Image/slide1.png"/>
-					<div class="caption">
-						<p>Intro to Animation 3D: Learned how to create 3D model.</p> 
-					</div> <!--caption-->
-				
-				</li>
-				<li>
-					<img src="Image/slide2.png"/>
-					<div class="caption">
-						<p>Web Evaluation Research: Practiced using eyetracking system.</p>
-					</div> <!--caption-->
-					
-				</li>	
-				<li>
-					<img src="Image/slide3.png"/>
-					<div class="caption">
-						<p>Intro to Web Design: Learned how to make web sites.</p>
-					</div> <!--caption-->
-	
-				</li>
-		
-			</ul>	
-		</div> <!--slider-->
-		</div> <!--content-wrapper-->
-			
 		<div id="footer">
 			<a id="contact"></a>
 			<h3 id="title">Contact</h3>
@@ -99,15 +126,11 @@
 			</p>
 			
 		<p>
-			Web Developer: Homare Takase 	&nbsp; &copy;2014			&nbsp;Web Design Course
+			Web Developer: Homare Takase 	&nbsp; &copy;2014			
 		</p>
-
-
-			
-			
 		</div><!--footer-->
 		
-
+	
 </body>
 
 </html>
