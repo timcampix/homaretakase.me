@@ -67,7 +67,7 @@ div p{
 	background-image:url('Image/city.png');
 	background-repeat:no-repeat;
 	background-position:center;
-	background-size:1350px;
+	background-size:2000px;
 	background-attachment:scroll;
 	width:100%;
 }
@@ -78,6 +78,7 @@ div p{
 	padding-top:15px;
 	height:700px;
 	text-align:center;
+
 }
 
 #top-header img{
@@ -109,12 +110,12 @@ li a{
 	margin-top:-30px;
 	background:black;
 	width:100%;
-	
+	text-align:center;
 }
 
 .navibar li{
 	padding: 35px;
-	padding-left:200px;
+	
 
 }
 .navibar li a{

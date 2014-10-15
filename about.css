@@ -1,8 +1,13 @@
 ﻿#content-wrapper{
 	font-size:20px;
+
 }
 
-
+.navibar{
+	margin:0 !important;
+	padding-top:10px !important;
+	width:100% !important;
+}
 
 
 .li-bg{
@@ -32,6 +37,20 @@
 	background-repeat:no-repeat;
 }
 
+
+#banner1{
+	background-color:#336699;
+	height:450px;
+	
+}
+
+
+#banner1 #title{
+	color:white !important;
+	font-size:70px;
+	text-align:center;
+	padding-top:220px;
+}
 
 
 #banner2{
@@ -83,6 +102,11 @@
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:10px;
+}
+
+#profile-pic{
+	padding-top:220px !important;
+	padding-bottom:110px !important;
 }
 
 img[src="Image/profilepic.gif"]{

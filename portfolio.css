@@ -1,0 +1,27 @@
+﻿#banner1{
+	background-color:#843a3a;
+	height:450px;
+	
+}
+
+#banner1 #title{
+	color:white !important;
+	font-size:70px;
+	text-align:center;
+	padding-top:220px;
+}
+.navibar{
+	margin:0 !important;
+	padding-top:10px !important;
+	width:100% !important;
+}
+
+
+#gallery{
+	text-align:center;
+}
+
+#gallery #title{
+	padding:220px 0px 220px;
+}
+
