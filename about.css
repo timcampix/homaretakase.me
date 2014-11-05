@@ -1,4 +1,8 @@
-﻿#content-wrapper{
+﻿
+
+
+
+#content-wrapper{
 	font-size:20px;
 
 }
@@ -55,8 +59,8 @@
 
 #banner2{
 	height:150px;
+	background-size: 100%;
 	background-image:url('Image/rons.gif');
-
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -77,7 +81,7 @@
 #banner3{
 	height:150px;
 	width:100%;
-	background-image:url('Image/eye-tracking.jpg');
+	background-image:url('Image/web-eval.png');
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -130,13 +134,13 @@ img[src="Image/profilepic.gif"]{
 	font-size:35px;
 }
 
-div h2{
+/*div h2{
 	text-align:center;
 	font-size:32px;
-	color:rgba(255,255,255,.7);
+	
 }
 
-
+*/
 
 
 /*word-switch*/
