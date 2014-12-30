@@ -8,12 +8,6 @@
 }
 
 
-#diamond{
-	text-align:center;
-	font-size:75px;
-	padding-top:30px;
-	
-}
 
 body{
 	width:100%;	
@@ -68,7 +62,7 @@ div p{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:2000px;
-	background-attachment:scroll;
+	background-attachment:fixed;
 	width:100%;
 }
 
@@ -129,6 +123,7 @@ li a{
     margin-right: auto;
     max-width:100%;
  	max-height:100%;
+	background:black;
 
 }
 
