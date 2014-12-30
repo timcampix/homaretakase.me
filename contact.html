@@ -43,10 +43,10 @@
 		<form action="send_form_email.php" method="post" name="contactform">
 			<div class="row">
 				<div class="small-9 small-centered columns">
-					<input type="text" placeholder="First Name"/>
-					<input type="text" placeholder="Last Name"/>
-					<input type="text" placeholder="Email Address"/>
-					<textarea placeholder="Message"></textarea>
+					<input type="text" placeholder="First Name" name="first_name" maxlength="50"/>
+					<input type="text" placeholder="Last Name" name="last_name" maxlength="50"/>
+					<input type="text" placeholder="Email Address" name="email" maxlength="80"/>
+					<textarea placeholder="Message" name="comments" maxlength="1000"></textarea>
 					<input type="submit" value="Send"/>
 				</div>
 			</div><!--end row-->
