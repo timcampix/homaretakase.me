@@ -1,6 +1,14 @@
 ﻿@import url(http://fonts.googleapis.com/css?family=Roboto:700);
 
 
+
+
+@media screen and (max-width: 480){
+	div{
+	background:red;
+}
+}
+
 *{
 	padding:0px;
 	margin:0px;
