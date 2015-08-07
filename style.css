@@ -1,0 +1,347 @@
+﻿/*Font*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+
+/*Note to self: don't rely on foundation centered. manually center stuff*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;/*alters css boxing*/
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+html,body{
+	
+	height:100%;
+	width:100%;
+	
+}
+
+.html{
+	display:block;
+}
+
+div{
+	display:block;
+}
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+
+
+}
+#content>.row{
+	margin:150px auto!important;
+	
+}
+#banner2>.row{
+	margin:150px auto!important;	
+}
+
+#banner3>.row{
+	margin:150px auto!important;}
+
+#banner4>.row{
+	margin:150px auto!important;
+}
+
+
+#button-container {
+	text-align:center!important;
+}
+
+
+/*Media*/
+
+/*small screen: max-width 640 px*/
+
+@media only screen and (max-width:40em){
+
+	.nav-bar li{
+	
+		padding-right:14%!important;
+		padding-top:10%!important;
+		font-size:10px!important;
+		
+	}
+	
+	.row{
+	margin-right:0px!important; /*removes the extra space on right side*/
+	background:red;
+	}
+
+}
+
+
+/*medium screen: min-width 641 px*/
+@media only screen and (min-width: 40.063em){
+
+	
+
+	
+}
+
+/*large screen: min-width 1025 px*/
+@media only screen and (min-width: 64.063em){
+	
+	
+		#navigation{
+	background:green!important;
+	max-height:2500px!important;
+	}
+
+	#navigation li a{
+	font:200px!important;
+	color:aqua;
+}
+
+}
+
+
+@media only screen and (max-width:1045px){
+	#video-container video{
+		visibility:hidden;
+	}
+	#video-container .overlay{
+		visibility:hidden;
+	}
+	#video-container{
+		background:url('Image/city.png');
+}
+}
+@media only screen and (min-width:1046px){
+	
+	
+}
+
+
+.off-canvas-nav{
+	z-index:50;
+}
+.menu{
+	position:absolute;
+	top:0;
+	left:0;
+	background:white;
+	width:240px;
+	height:100%;
+	-webkit-transform:translate3d(-240px, 0, 0);
+	-moz-transform:translate3d(-240px, 0, 0);
+	-webkit-transition: transform 0.35s;
+	-moz-transition: transform 0.35s;
+}
+
+label{
+	cursor:pointer;
+}
+
+label:focus{
+	outline:none;
+}
+
+.menu label.menu-toggle{
+	position:absolute;
+	right:-60px;
+	display:block;
+	height:60px;
+	width:60px;
+	line-height:0px;
+	padding:0;
+	text-indent: -9999px; /*span toggle goes off canvas*/
+	background:white 
+	url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)
+	50% 50%/ 25px 25px no-repeat;
+	overflow:hidden;
+}
+
+
+.menu ul li a:hover, .menu ul li label:hover{
+	
+	color:green;
+}
+
+
+
+.menu-checkbox{
+	display:none; /*hides input*/
+}
+
+.menu .menu label.menu-toggle{
+	
+	background:none;
+}
+.menu-checkbox:checked + .menu{
+	
+	transform:translate3d(0,0,0);
+	
+}
+
+
+.menu ul li a, .menu ul li label{
+	display:block;
+	text-align:center;
+	padding:0 20px;
+	line-height:60px;
+	text-decoration: none;
+	color:black;
+}
+
+
+
+
+#menu{
+	font:white;
+}
+
+
+
+/*NAVIBAR*/
+
+#navigation{
+	background:black;
+	max-width:inherit;
+
+	
+}
+
+
+.navigation li a{
+	
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;	
+	font:200px!important;
+	
+	}
+
+
+
+
+li{
+	display:inline!important;
+}
+
+
+
+/*Banner1*/
+
+#banner1{
+	height:650px;
+	background:url('Image/sparkly-background.png') fixed no-repeat center;
+	position:relative;
+	max-width:inherit;
+	overflow:hidden;
+	
+
+}
+h1{
+	font-family:'PT Sans',sans-serif!important;
+
+	color: white;
+}
+
+
+#title{
+	text-align:center;
+	margin-top:50px;
+
+	z-index:4;
+	top:100%;
+	
+}
+
+#title-container{
+	text-align:center!important;
+}
+
+
+#Me{
+	background:url('Image/floaty-me.png') no-repeat;
+	width:445px;
+	height:360px;
+	position:absolute;
+	right:380px;
+	top:70%;
+	z-index:2;
+	
+}
+
+.centered{
+	text-align:center!important;
+}
+#back{
+	background:url('Image/floaty-obasan.png') no-repeat;
+	width:230px;
+	height:247px;
+	position:absolute;
+	top:70%;
+	z-index:1;
+}
+
+
+#fore{
+	background:url('Image/floaty-dog.png') no-repeat ;
+	width:422px;
+	height:629px;
+	right:30%; /*-70px if header*/
+	position:absolute;
+	z-index:3;
+	top:30%;
+}
+
+/*Banner2*/
+#banner2{
+	background:url('beautiful%20computer%20desk%202.jpg') no-repeat fixed center;
+	height:400px;
+	position:relative;
+	max-width:inherit;
+
+}
+/*VIDEO*/
+	#overlay{
+	position: absolute;
+	background:url('Image/raster.png') ;
+	height:100%;
+	top:0;
+	right:0;
+	left:0;
+	
+}
+
+#video-container{
+	min-height:100%;
+	background-color:black;
+	overflow:hidden;
+}
+#video-container video{
+
+	min-width:100%;
+	min-height:100%;
+	overflow:hidden;
+	
+}
+
+
+/*About*/
+
+/*Work*/
+
+/*Contact*/
+
+#contact-container{
+	background-color:;
+	
+}
+
+#icon-container{
+	
+	text-align:center;
+}
+
