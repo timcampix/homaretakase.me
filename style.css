@@ -74,7 +74,7 @@ div{
 	
 	.row{
 	margin-right:0px!important; /*removes the extra space on right side*/
-	background:red;
+	
 	}
 
 }
@@ -114,6 +114,9 @@ div{
 	}
 	#video-container{
 		background:url('Image/city.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		width:100%;
 }
 }
 @media only screen and (min-width:1046px){
@@ -121,6 +124,19 @@ div{
 	
 }
 
+
+
+
+#logo{
+	position:absolute;
+	top:45%;
+	text-align:center;
+	width:100%;
+	
+}
+#logo h3{
+	text-align:center;
+}
 
 .off-canvas-nav{
 	z-index:50;
@@ -304,7 +320,7 @@ h1{
 	max-width:inherit;
 
 }
-/*VIDEO*/
+/*VIDEO
 	#overlay{
 	position: absolute;
 	background:url('Image/raster.png') ;
@@ -313,12 +329,13 @@ h1{
 	right:0;
 	left:0;
 	
-}
+}*/
 
 #video-container{
 	min-height:100%;
 	background-color:black;
 	overflow:hidden;
+	
 }
 #video-container video{
 
@@ -328,12 +345,19 @@ h1{
 	
 }
 
+#sec-title{
+	padding-bottom:50px!important;
+}
 
 /*About*/
 
 /*Work*/
 
 /*Contact*/
+
+#icon-container a{
+	color:black
+}
 
 #contact-container{
 	background-color:;
