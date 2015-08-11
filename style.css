@@ -11,9 +11,8 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;/*alters css boxing*/
-	font-family: 'Montserrat', sans-serif;
-
 }
+
 
 
 html,body{
@@ -27,6 +26,10 @@ html,body{
 	display:block;
 }
 
+#sec-title, p{
+		font-family: 'Montserrat', sans-serif!important;
+
+}
 div{
 	display:block;
 }
@@ -55,6 +58,7 @@ div{
 
 #button-container {
 	text-align:center!important;
+	margin-top:5%;
 }
 
 
@@ -112,12 +116,7 @@ div{
 	#video-container .overlay{
 		visibility:hidden;
 	}
-	#video-container{
-		background:url('Image/city.png');
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-}
+		
 }
 @media only screen and (min-width:1046px){
 	
@@ -129,13 +128,28 @@ div{
 
 #logo{
 	position:absolute;
-	top:45%;
+	top:50%;
 	text-align:center;
 	width:100%;
 	
 }
 #logo h3{
 	text-align:center;
+}
+
+#logo h1{
+	font-size:60px!important;
+}
+
+
+#button-container button{
+	background:transparent;
+	border:1px solid white;
+}
+
+#button-container button:hover{
+	background:rgb(255,255,255);
+	color:rgba(0,0,0,.7);
 }
 
 .off-canvas-nav{
@@ -250,7 +264,7 @@ li{
 
 #banner1{
 	height:650px;
-	background:url('Image/sparkly-background.png') fixed no-repeat center;
+	background:url('../Template/VIDEO%20n%20PARALLAX/Images/sparkly-background.png') no-repeat fixed center;
 	position:relative;
 	max-width:inherit;
 	overflow:hidden;
@@ -279,7 +293,7 @@ h1{
 
 
 #Me{
-	background:url('Image/floaty-me.png') no-repeat;
+	background:url('../Template/VIDEO%20n%20PARALLAX/Images/floaty-me.png') no-repeat;
 	width:445px;
 	height:360px;
 	position:absolute;
@@ -293,7 +307,7 @@ h1{
 	text-align:center!important;
 }
 #back{
-	background:url('Image/floaty-obasan.png') no-repeat;
+	background:url('../Template/VIDEO%20n%20PARALLAX/Images/floaty-obasan.png') no-repeat;
 	width:230px;
 	height:247px;
 	position:absolute;
@@ -303,7 +317,7 @@ h1{
 
 
 #fore{
-	background:url('Image/floaty-dog.png') no-repeat ;
+	background:url('../Template/VIDEO%20n%20PARALLAX/Images/floaty-dog.png') no-repeat ;
 	width:422px;
 	height:629px;
 	right:30%; /*-70px if header*/
@@ -320,33 +334,25 @@ h1{
 	max-width:inherit;
 
 }
-/*VIDEO
-	#overlay{
-	position: absolute;
-	background:url('Image/raster.png') ;
-	height:100%;
-	top:0;
-	right:0;
-	left:0;
-	
-}*/
 
-#video-container{
+#header-container{
 	min-height:100%;
-	background-color:black;
-	overflow:hidden;
-	
-}
-#video-container video{
+	background-color:red;
 
-	min-width:100%;
-	min-height:100%;
-	overflow:hidden;
+	background:url('Image/HTbackgroundicon.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	max-width:inherit;
+
+
 	
 }
 
 #sec-title{
+	padding-top:50px!important;
 	padding-bottom:50px!important;
+	color:black;
 }
 
 /*About*/
@@ -360,12 +366,20 @@ h1{
 }
 
 #contact-container{
-	background-color:;
+	background-color:#4a4d55;
+	height:300px;
 	
 }
 
 #icon-container{
+	margin-top:5%;
 	
 	text-align:center;
+}
+
+#copyright{
+	margin-top:10%;;
+	color:white;
+	
 }
 
