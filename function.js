@@ -28,7 +28,12 @@
 		"transform":"translate("+nScroll/-10+"%,"+nScroll/-25+"%) "
 	
 	});
-
+	
+			$(".menu").css({
+		
+				"top":("+nScroll+px")
+	
+	});
 
 
 });

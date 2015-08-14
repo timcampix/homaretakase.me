@@ -166,10 +166,10 @@ div{
 }
 
 .off-canvas-nav{
-	z-index:50;
+	
 }
 .menu{
-	position:absolute;
+	position:fixed; /*sticks when scrolling down*/
 	top:0;
 	left:0;
 	background:white;
@@ -207,7 +207,7 @@ label:focus{
 
 .menu ul li a:hover, .menu ul li label:hover{
 	
-	color:green;
+	color:orange;
 }
 
 
